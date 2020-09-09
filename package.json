@@ -1,0 +1,19 @@
+{
+  "name": "project-name",
+  "version": "0.0.0",
+  "engines": {
+    "node": "12.16.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^6.2.0",
+    "express": "latest",
+    "express-handlebars": "^3.0.2",
+    "express-validator": "^5.3.1",
+    "hbs": "^4.0.3",
+    "pg": "^7.8.2"
+  }
+}

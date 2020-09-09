@@ -1,0 +1,7 @@
+// import all scss files into here an then 
+// compile style.scss file to create one style.css file
+// style.css in being imported in views/layouts/main.hbs
+// Example import statement for header.scss file:
+@import "header";
+@import "footer";
+@import "projects";

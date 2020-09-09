@@ -1,0 +1,45 @@
+.nav-link {
+    cursor: pointer
+}
+
+.nav-item:hover {
+    background-color: #545a60;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    padding: .75rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+nav.navbar {
+    padding: 0.5rem 4rem;
+    height: 6rem;
+    margin-bottom: 4rem;
+    background-color: #1b2033;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 999;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+  }

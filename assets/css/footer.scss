@@ -1,0 +1,116 @@
+.right-footer-container {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.email-tag {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(168, 178, 209);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.email-tag:hover, .email-tag:focus {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    color: #475eff;
+    text-decoration: none;
+}
+
+.email-container::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+}
+
+.left-right-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.left-footer-container {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+
+.social-list {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.social-list::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    margin-top: 18px;
+    background-color: rgb(168, 178, 209);
+}
+
+.social-item {
+    padding: 12px;
+}
+
+.social-item:hover svg, .social-item:focus svg {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    fill: #475eff;
+}
+
+.social-item svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(168, 178, 209);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.social-list li {
+    display: flex;
+}
+
+.social-list li a {
+    display: flex;
+}
+
+.footer-text {
+    color: rgb(168, 178, 209);
+    margin-bottom: 40px;
+}
