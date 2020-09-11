@@ -1,0 +1,67 @@
+#contact {
+    padding: 150px 0px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto 100px;
+}
+
+.contact-head {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 10px 0px 30px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #3654ff;
+    padding-left: 12px;
+}
+
+.contact-head::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #3b517f;
+    position: relative;
+    top: 0px;
+    margin-left: 20px;
+}
+
+.contact-head::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #3b517f;
+    position: relative;
+    top: 0px;
+    margin-right: 20px;
+}
+
+.contact-email {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: #3654ff;
+    background-color: transparent;
+    border: 1px solid #3654ff;
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    margin-top: 50px;
+}
+
+.contact-email:hover, .contact-email:focus {
+    background-color: rgba(54, 84, 255, 0.1);
+    transition: 0.3s;
+    text-decoration: none;
+}

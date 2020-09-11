@@ -1,3 +1,73 @@
 .about-sect {
     color: #d7d7d7;
 }
+
+#about {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+    margin: 0px auto;
+    padding: 200px 0px;
+    max-width: 1000px;
+    position: relative;
+    color: #c3c8d7;
+}
+
+.about-head {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 10px 0px 30px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #3654ff;
+}
+
+.about-head::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #3b517f;
+    position: relative;
+    top: 0px;
+    margin-left: 20px;
+}
+
+.about-info {
+    width: 75%;
+    max-width: 650px;
+    color: #c3c8d7;
+}
+
+.about-skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+
+.skill {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 16px;
+    color: #c3c8d7;
+}
+
+.skill::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #3654ff;
+    font-size: 14px;
+    line-height: 12px;
+}

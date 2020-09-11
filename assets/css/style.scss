@@ -2,7 +2,17 @@
 // compile style.scss file to create one style.css file
 // style.css in being imported in views/layouts/main.hbs
 // Example import statement for header.scss file:
+@font-face {
+    font-family: "SF Mono";
+    src: url("/fonts/sfmono-regular-webfont.woff");
+    }
+@font-face {
+    font-family: "Calibre";
+    src: url("/fonts/calibre-webfont.woff");
+    }
 @import "header";
 @import "footer";
 @import "projects";
 @import "about";
+@import "index";
+@import "contact";
