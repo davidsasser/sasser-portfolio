@@ -22,7 +22,7 @@ $(window).scroll(function () {
             $('nav.navbar').css({ height: '4rem', transition: 'height 0.3s' })
             $('nav.navbar').css('background-color', '#0b0f1e')
             $('nav.navbar').css('box-shadow', '0 4px 8px 0 rgba(0, 0, 0, 0.2)')
-            $('nav.navbar').css({ transition: 'transform 0.4s', transform: 'translate3d(0, -100%, 0)' })
+            $('nav.navbar').css({ transition: 'transform 0.5s', transform: 'translate3d(0, -100%, 0)' })
         }
     } else {
         console.log("second one")
@@ -42,7 +42,7 @@ $(window).scroll(function () {
             $('nav.navbar').css('box-shadow', '0 4px 8px 0 rgba(0, 0, 0, 0.2)')
         }
         else {
-            $('nav.navbar').css({ transition: 'transform 0.4s', transform: 'translate3d(0, 0, 0)' })
+            $('nav.navbar').css({ transition: 'transform 0.5s', transform: 'translate3d(0, 0, 0)' })
         }
     }
     lastScrollTop = st;

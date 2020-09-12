@@ -100,19 +100,19 @@
     padding: 0 12px 30px;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 1080px) {
     .proj-cards-item {
         width: 50%;
     }
 }
 
-@media (min-width: 56rem) {
+@media (min-width: 1200px) {
     .proj-cards-item {
-        width: 33.3333%;
+        width: 33.333%;
     }
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 1440px) {
     .proj-cards-item {
         width: 25%;
     }
@@ -188,11 +188,17 @@
 
 #projects {
     margin: 0px auto;
-    padding: 200px 0px;
+    padding: 150px 0px;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.more-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

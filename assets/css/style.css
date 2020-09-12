@@ -121,7 +121,7 @@ body {
   content: "";
   display: block;
   width: 1px;
-  height: 90px;
+  height: 120px;
   margin: 0px auto;
   background-color: #a8b2d1; }
 
@@ -152,7 +152,7 @@ body {
   content: "";
   display: block;
   width: 1px;
-  height: 90px;
+  height: 120px;
   margin: 0px auto;
   margin-top: 18px;
   background-color: #a8b2d1; }
@@ -263,13 +263,13 @@ body {
   display: flex;
   padding: 0 12px 30px; }
 
-@media (min-width: 40rem) {
+@media (min-width: 1080px) {
   .proj-cards-item {
     width: 50%; } }
-@media (min-width: 56rem) {
+@media (min-width: 1200px) {
   .proj-cards-item {
-    width: 33.3333%; } }
-@media (min-width: 80rem) {
+    width: 33.333%; } }
+@media (min-width: 1440px) {
   .proj-cards-item {
     width: 25%; } }
 .proj-card {
@@ -334,13 +334,18 @@ body {
 
 #projects {
   margin: 0px auto;
-  padding: 200px 0px;
+  padding: 150px 0px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   flex-direction: column;
   align-items: flex-start; }
+
+.more-projects {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
 
 .about-sect {
   color: #d7d7d7; }
@@ -351,7 +356,7 @@ body {
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
   margin: 0px auto;
-  padding: 200px 0px;
+  padding: 250px 0px;
   max-width: 1000px;
   position: relative;
   color: #c3c8d7; }
