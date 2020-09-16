@@ -90,3 +90,12 @@ body {
 * {
     box-sizing: border-box;
   }
+
+@media (max-width: 1000px) {
+    .navbar-nav {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+}
