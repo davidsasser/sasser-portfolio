@@ -81,6 +81,12 @@ body {
 * {
   box-sizing: border-box; }
 
+@media (max-width: 1000px) {
+  .navbar-nav {
+    display: none; }
+
+  .nav {
+    display: flex; } }
 .right-footer-container {
   width: 40px;
   position: fixed;
@@ -183,6 +189,28 @@ body {
   color: #a8b2d1;
   margin-bottom: 40px; }
 
+@media (max-width: 1440px) {
+  .left-footer-container {
+    left: 25px; }
+
+  .right-footer-container {
+    right: 25px; }
+
+  .email-container::after {
+    height: 90px; }
+
+  .social-list::after {
+    height: 90px; }
+
+  .social-item svg {
+    width: 18px;
+    height: 18px; }
+
+  .email-tag {
+    font-size: 12px; } }
+@media (max-width: 1000px) {
+  .left-right-container {
+    display: none; } }
 .projects-container {
   display: block; }
 
