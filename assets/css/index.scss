@@ -64,3 +64,252 @@
     transition: 0.3s;
     text-decoration: none;
 }
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 1.1rem;
+    } 
+    .navbar-brand {
+        font-size: 2.3rem;
+    } 
+    .index-intro {
+        font-size: 18px;
+    } 
+    .index-name {
+        font-size: 68px;
+    } 
+    .index-highlight {
+        font-size: 52px;
+    } 
+    .index-text {
+        font-size: 19px;
+    } 
+    .email-link {
+        padding: 1.25rem 1.5rem;
+    } 
+    .proj-card-title {
+        font-size: 1.25rem;
+    } 
+    .text-color-muted {
+        font-size: 0.8rem;
+    } 
+    .proj-card-text {
+        font-size: 16px;
+    } 
+    .card-link svg {
+        height: 28px;
+        width: 28px;
+    } 
+    .contact-email {
+        padding: 1.25rem 1.5rem;
+    } 
+
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 1.1rem;
+    } 
+    .navbar-brand {
+        font-size: 2.3rem;
+    } 
+    .index-intro {
+        font-size: 18px;
+    } 
+    .index-name {
+        font-size: 68px;
+    } 
+    .index-highlight {
+        font-size: 52px;
+    } 
+    .index-text {
+        font-size: 19px;
+    } 
+    .email-link {
+        padding: 1.25rem 1.5rem;
+    } 
+    .proj-card-title {
+        font-size: 1.25rem;
+    } 
+    .text-color-muted {
+        font-size: 0.8rem;
+    } 
+    .proj-card-text {
+        font-size: 16px;
+    } 
+    .card-link svg {
+        height: 28px;
+        width: 28px;
+    } 
+    .contact-email {
+        padding: 1.25rem 1.5rem;
+    } 
+    .footer-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 1rem;
+    } 
+    .navbar-brand {
+        font-size: 2.2rem;
+    } 
+    .index-intro {
+        font-size: 16px;
+    } 
+    .about-info {
+        width: 100%;
+    }
+    .index-name {
+        font-size: 60px;
+    } 
+    .index-highlight {
+        font-size: 40px;
+        line-height: 1;
+        margin: 5px 0 0;
+    } 
+    .index-text {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 15px 0 0;
+    } 
+    .email-link {
+        padding: 1rem 1.25rem;
+    } 
+    .about-info {
+        margin: 10px 0 25px;
+    } 
+    .skill {
+        font-size: 14px;
+    }
+    .contact-email {
+        padding: 1rem 1.25rem;
+    } 
+    .contact-head {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .main-content {
+        padding: 0 100px 200px;
+    }
+    body {
+        font-size: 1rem;
+    } 
+    .navbar-brand {
+        font-size: 2.1rem;
+    }
+    .index-name {
+        font-size: 48px;
+    } 
+    .index-highlight {
+        font-size: 30px;
+    } 
+    .index-text {
+        font-size: 16px;
+        line-height: 1.1;
+        margin: 15px 0 0;
+    } 
+    .footer-text {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .main-content {
+        padding: 0 80px 200px;
+    }
+    .contact-head {
+        font-size: 32px;
+    }
+    nav.navbar {
+        padding: 0.5rem 3rem;
+    }
+    .dropdown-item {
+        padding: 0.25rem 3rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .main-content {
+        padding: 0 60px 100px;
+    }
+    nav.navbar {
+        padding: 0.5rem 2rem;
+    }
+    .dropdown-item {
+        padding: 0.25rem 2rem;
+    }
+    .intro-section {
+        padding: 75px 0px;
+    }
+    .intro-section {
+        padding: 75px 0px;
+    }
+    #about {
+        padding: 150px 0px;
+    }
+    #projects {
+        padding: 100px 0px;
+    }
+    #contact {
+        padding: 100px 0px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 404px) {
+    .index-name {
+        font-size: 42px;
+    }
+    .index-highlight {
+        font-size: 26px;
+    }
+    .skill {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .main-content {
+        padding: 0 50px 200px;
+    }
+}
+
+@media (max-width: 344px) {
+    .main-content {
+        padding: 0 40px 200px;
+    }
+    nav.navbar {
+        padding: 0.5rem 1rem;
+    }
+    .dropdown-item {
+        padding: 0.25rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .index-name {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 325px) {
+    .main-content {
+        padding: 0 20px 200px;
+    }
+    nav.navbar {
+        padding: 0.5rem 1rem;
+    }
+    .dropdown-item {
+        padding: 0.25rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .index-name {
+        font-size: 38px;
+    }
+}
